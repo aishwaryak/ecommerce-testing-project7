@@ -36,8 +36,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">${__P(LoopController.loops)}</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(ThreadGroup.num_threads)}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">${__P(ThreadGroup.ramp_time)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">1048575</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">100</stringProp>
         <longProp name="ThreadGroup.start_time">1444605964000</longProp>
         <longProp name="ThreadGroup.end_time">1444605964000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -52,7 +52,7 @@
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">false</boolProp>
           <stringProp name="shareMode">shareMode.group</stringProp>
-          <boolProp name="stopThread">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
           <stringProp name="variableNames"></stringProp>
         </CSVDataSet>
         <hashTree/>
